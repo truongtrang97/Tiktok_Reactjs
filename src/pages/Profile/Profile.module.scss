@@ -71,8 +71,8 @@
     display: flex;
     cursor: pointer;
     align-items: center;
-    &:hover{
-        background-color:rgba($color: #ccc, $alpha: 0.2);
+    &:hover {
+        background-color: rgba($color: #ccc, $alpha: 0.2);
     }
 }
 .icon {
@@ -82,13 +82,13 @@
     font-size: 1.6rem;
     margin-left: 12px;
 }
-.btn_more{
+.btn_more {
     display: flex;
     justify-content: center;
     cursor: pointer;
     margin-bottom: 8px;
-    &:hover{
-        background-color:rgba($color: #ccc, $alpha: 0.2);
+    &:hover {
+        background-color: rgba($color: #ccc, $alpha: 0.2);
     }
 }
 .preview_more {
@@ -98,7 +98,7 @@
 .wrapper_video_like {
     display: flex;
 }
-.video_like__video {
+.video_like_video {
     width: 230px;
     height: 44px;
     display: flex;
@@ -106,28 +106,27 @@
     // border-bottom: 2px solid #000;
     font-size: 2rem;
     align-items: flex-end;
-    &:hover{
+    &:hover {
         border-bottom: 2px solid #000000;
     }
     border-bottom: 2px solid rgba($color: #ccc, $alpha: 0.5);
-    
+
     cursor: pointer;
 }
-.video_like__like{
+.video_like_like {
     width: 230px;
     height: 44px;
     display: flex;
     justify-content: center;
     // border-bottom: 2px solid #000;
     font-size: 2rem;
-    &:hover{
+    &:hover {
         border-bottom: 2px solid #000000;
     }
     border-bottom: 2px solid rgba($color: #ccc, $alpha: 0.5);
     cursor: pointer;
-
 }
-    
+
 .icon_lock {
     margin-right: 5px;
 }
@@ -146,27 +145,26 @@
     object-fit: cover;
     cursor: pointer;
 }
-.show_video{
+.show_video {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1 ;
-    margin:0 auto;
+    flex: 1;
+    margin: 0 auto;
     text-align: center;
-    margin-top: 250px ;
-    
+    margin-top: 250px;
 }
-.btn_bag{
+.btn_bag {
     font-size: 90px;
     margin-bottom: 24px;
 }
-.content_like{
-margin-top: 24px;
-font-size: 2.4rem;
-font-weight: 700;
+.content_like {
+    margin-top: 24px;
+    font-size: 2.4rem;
+    font-weight: 700;
 }
-.subcontent_like{
+.subcontent_like {
     margin-top: 8px;
     font-size: 1.6rem;
 }

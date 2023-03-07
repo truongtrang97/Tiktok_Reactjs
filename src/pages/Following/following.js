@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import classNames from 'classnames/bind';
 import { useContext, useEffect, useRef, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
@@ -50,6 +51,7 @@ function Following() {
                 console.log('item_data.nickname: ', item_data.nickname);
                 return (
                     <Link
+                        key={item_data.id}
                         className={cx('item')}
                         // to={config.routes.profile}
                         to={`/${item_data.nickname}`}

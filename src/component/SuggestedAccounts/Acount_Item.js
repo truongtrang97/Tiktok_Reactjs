@@ -24,10 +24,7 @@ function AcountItem({ data }) {
 
     return (
         <Tippy interactive delay={[800, 0]} placement="bottom" render={renderPreview}>
-            <Link
-                // to={`/${data.nickname}`}
-                className={cx('acountItem')}
-            >
+            <Link to={`/${data.nickname}`} className={cx('acountItem')}>
                 <Image className={cx('user_img')} src={data.avatar} alt={data.first_name} />
                 <div className={cx('item-info')}>
                     <span>
