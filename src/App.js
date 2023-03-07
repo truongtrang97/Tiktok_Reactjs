@@ -8,34 +8,34 @@ import AppTest from './Test/AppTest';
 function App() {
     return (
         <Router>
-            <DataProvider>
-                <div className="App">
-                    <Routes>
-                        {publicRoutes.map((route, index) => {
-                            let Layout = DefaultLayout;
-                            if (route.layout) {
-                                Layout = route.layout;
-                            } else if (route.layout === null) {
-                                Layout = Fragment;
-                            }
-                            const Page = route.component;
-                            // console.log('route.path: ', route.path);
-                            // console.log('Page: ', Page);
-                            return (
-                                <Route
-                                    key={index}
-                                    path={route.path}
-                                    element={
-                                        <Layout>
-                                            <Page />
-                                        </Layout>
-                                    }
-                                />
-                            );
-                        })}
-                    </Routes>
-                </div>
-            </DataProvider>
+            {/* <DataProvider> */}
+            <div className="App">
+                <Routes>
+                    {publicRoutes.map((route, index) => {
+                        let Layout = DefaultLayout;
+                        if (route.layout) {
+                            Layout = route.layout;
+                        } else if (route.layout === null) {
+                            Layout = Fragment;
+                        }
+                        const Page = route.component;
+                        // console.log('route.path: ', route.path);
+                        // console.log('Page: ', Page);
+                        return (
+                            <Route
+                                key={index}
+                                path={route.path}
+                                element={
+                                    <Layout>
+                                        <Page />
+                                    </Layout>
+                                }
+                            />
+                        );
+                    })}
+                </Routes>
+            </div>
+            {/* </DataProvider> */}
         </Router>
         // <AppTest />
     );
