@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://truongtrang97.github.io/Tiktok_Reactjs/static/css/main.e1db178f.css",
-    "main.js": "https://truongtrang97.github.io/Tiktok_Reactjs/static/js/main.2f1f6686.js",
+    "main.css": "https://truongtrang97.github.io/Tiktok_Reactjs/static/css/main.01516edf.css",
+    "main.js": "https://truongtrang97.github.io/Tiktok_Reactjs/static/js/main.4a659e8d.js",
     "static/js/787.b86fd414.chunk.js": "https://truongtrang97.github.io/Tiktok_Reactjs/static/js/787.b86fd414.chunk.js",
     "static/media/ProximaNova-Semibold.woff2": "https://truongtrang97.github.io/Tiktok_Reactjs/static/media/ProximaNova-Semibold.db7972dbe0b808f96bae.woff2",
     "static/media/sofiapro-bold.woff2": "https://truongtrang97.github.io/Tiktok_Reactjs/static/media/sofiapro-bold.1d7186488612ac20891f.woff2",
@@ -9,12 +9,12 @@
     "static/media/Proxima-Nova-Regular.woff2": "https://truongtrang97.github.io/Tiktok_Reactjs/static/media/Proxima-Nova-Regular.6c83037ae28747e6d774.woff2",
     "static/media/logo.svg": "https://truongtrang97.github.io/Tiktok_Reactjs/static/media/logo.3de8c8e04a2a775274a2cc1efe82e456.svg",
     "index.html": "https://truongtrang97.github.io/Tiktok_Reactjs/index.html",
-    "main.e1db178f.css.map": "https://truongtrang97.github.io/Tiktok_Reactjs/static/css/main.e1db178f.css.map",
-    "main.2f1f6686.js.map": "https://truongtrang97.github.io/Tiktok_Reactjs/static/js/main.2f1f6686.js.map",
+    "main.01516edf.css.map": "https://truongtrang97.github.io/Tiktok_Reactjs/static/css/main.01516edf.css.map",
+    "main.4a659e8d.js.map": "https://truongtrang97.github.io/Tiktok_Reactjs/static/js/main.4a659e8d.js.map",
     "787.b86fd414.chunk.js.map": "https://truongtrang97.github.io/Tiktok_Reactjs/static/js/787.b86fd414.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1db178f.css",
-    "static/js/main.2f1f6686.js"
+    "static/css/main.01516edf.css",
+    "static/js/main.4a659e8d.js"
   ]
 }
